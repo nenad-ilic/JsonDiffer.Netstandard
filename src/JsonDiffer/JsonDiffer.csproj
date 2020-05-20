@@ -2,10 +2,30 @@
 
   <PropertyGroup>
     <TargetFrameworks>net35;net40;net45;net46;netstandard1.3;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <Company>-</Company>
+    <Authors>Amin M</Authors>
+    <Product>Json Differ</Product>
+    <Description>A light weight library to compare and highlight differences between two Json object based on Newtonsoft JSON</Description>
+    <Version>0.2.0</Version>
+    <PackageProjectUrl>https://github.com/aminm-net/JsonDiffer.Netstandard</PackageProjectUrl>
+    <PackageIcon>2.PNG</PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="C:\Users\momir\OneDrive - Ørsted\Desktop\2.PNG">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
